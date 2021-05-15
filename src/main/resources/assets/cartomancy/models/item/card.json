@@ -1,0 +1,480 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cartomancy:item/card"
+  },
+  "overrides" : [
+    {
+      "predicate" : {
+        "cartomancy:number" : 0
+      },
+      "model" : "cartomancy:item/the_fool"
+    },
+    {
+      "predicate" : {
+        "cartomancy:number" : 1
+      },
+      "model" : "cartomancy:item/the_magician"
+    },
+    {
+      "predicate" : {
+        "cartomancy:number" : 2
+      },
+      "model" : "cartomancy:item/the_high_priestess"
+    },
+    {
+      "predicate" : {
+        "cartomancy:number" : 3
+      },
+      "model" : "cartomancy:item/the_empress"
+    },
+    {
+      "predicate" : {
+        "cartomancy:number" : 4
+      },
+      "model" : "cartomancy:item/the_emperor"
+    },
+    {
+      "predicate" : {
+        "cartomancy:number" : 5
+      },
+      "model" : "cartomancy:item/the_hierophant"
+    },
+    {
+      "predicate" : {
+        "cartomancy:number" : 6
+      },
+      "model" : "cartomancy:item/the_lovers"
+    },
+    {
+      "predicate" : {
+        "cartomancy:number" : 7
+      },
+      "model" : "cartomancy:item/the_chariot"
+    },
+    {
+      "predicate" : {
+        "cartomancy:number" : 8
+      },
+      "model" : "cartomancy:item/strength"
+    },
+    {
+      "predicate" : {
+        "cartomancy:number" : 9
+      },
+      "model" : "cartomancy:item/the_hermit"
+    },
+    {
+      "predicate" : {
+        "cartomancy:number" : 10
+      },
+      "model" : "cartomancy:item/wheel_of_fortune"
+    },
+    {
+      "predicate" : {
+        "cartomancy:number" : 11
+      },
+      "model" : "cartomancy:item/justice"
+    },
+    {
+      "predicate" : {
+        "cartomancy:number" : 12
+      },
+      "model" : "cartomancy:item/the_hanged_man"
+    },
+    {
+      "predicate" : {
+        "cartomancy:number" : 13
+      },
+      "model" : "cartomancy:item/death"
+    },
+    {
+      "predicate" : {
+        "cartomancy:number" : 14
+      },
+      "model" : "cartomancy:item/temperance"
+    },
+    {
+      "predicate" : {
+        "cartomancy:number" : 15
+      },
+      "model" : "cartomancy:item/the_devil"
+    },
+    {
+      "predicate" : {
+        "cartomancy:number" : 16
+      },
+      "model" : "cartomancy:item/the_tower"
+    },
+    {
+      "predicate" : {
+        "cartomancy:number" : 17
+      },
+      "model" : "cartomancy:item/the_star"
+    },
+    {
+      "predicate" : {
+        "cartomancy:number" : 18
+      },
+      "model" : "cartomancy:item/the_moon"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 19
+      },
+      "model": "cartomancy:item/the_sun"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 20
+      },
+      "model": "cartomancy:item/judgement"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 21
+      },
+      "model": "cartomancy:item/the_world"
+    },
+
+    {
+      "predicate": {
+        "cartomancy:number" : 22
+      },
+      "model": "cartomancy:item/ace_of_wands"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 23
+      },
+      "model": "cartomancy:item/two_of_wands"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 24
+      },
+      "model": "cartomancy:item/three_of_wands"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 25
+      },
+      "model": "cartomancy:item/four_of_wands"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 26
+      },
+      "model": "cartomancy:item/five_of_wands"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 27
+      },
+      "model": "cartomancy:item/six_of_wands"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 28
+      },
+      "model": "cartomancy:item/seven_of_wands"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 29
+      },
+      "model": "cartomancy:item/eight_of_wands"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 30
+      },
+      "model": "cartomancy:item/nine_of_wands"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 31
+      },
+      "model": "cartomancy:item/ten_of_wands"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 32
+      },
+      "model": "cartomancy:item/page_of_wands"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 33
+      },
+      "model": "cartomancy:item/knight_of_wands"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 34
+      },
+      "model": "cartomancy:item/queen_of_wands"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 35
+      },
+      "model": "cartomancy:item/king_of_wands"
+    },
+
+    {
+      "predicate": {
+        "cartomancy:number" : 36
+      },
+      "model": "cartomancy:item/ace_of_pentacles"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 37
+      },
+      "model": "cartomancy:item/two_of_pentacles"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 38
+      },
+      "model": "cartomancy:item/three_of_pentacles"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 39
+      },
+      "model": "cartomancy:item/four_of_pentacles"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 40
+      },
+      "model": "cartomancy:item/five_of_pentacles"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 41
+      },
+      "model": "cartomancy:item/six_of_pentacles"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 42
+      },
+      "model": "cartomancy:item/seven_of_pentacles"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 43
+      },
+      "model": "cartomancy:item/eight_of_pentacles"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 44
+      },
+      "model": "cartomancy:item/nine_of_pentacles"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 45
+      },
+      "model": "cartomancy:item/ten_of_pentacles"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 46
+      },
+      "model": "cartomancy:item/page_of_pentacles"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 47
+      },
+      "model": "cartomancy:item/knight_of_pentacles"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 48
+      },
+      "model": "cartomancy:item/queen_of_pentacles"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 49
+      },
+      "model": "cartomancy:item/king_of_pentacles"
+    },
+
+    {
+      "predicate": {
+        "cartomancy:number" : 50
+      },
+      "model": "cartomancy:item/ace_of_cups"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 51
+      },
+      "model": "cartomancy:item/two_of_cups"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 52
+      },
+      "model": "cartomancy:item/three_of_cups"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 53
+      },
+      "model": "cartomancy:item/four_of_cups"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 54
+      },
+      "model": "cartomancy:item/five_of_cups"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 55
+      },
+      "model": "cartomancy:item/six_of_cups"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 56
+      },
+      "model": "cartomancy:item/seven_of_cups"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 57
+      },
+      "model": "cartomancy:item/eight_of_cups"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 58
+      },
+      "model": "cartomancy:item/nine_of_cups"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 59
+      },
+      "model": "cartomancy:item/ten_of_cups"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 60
+      },
+      "model": "cartomancy:item/page_of_cups"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 61
+      },
+      "model": "cartomancy:item/knight_of_cups"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 62
+      },
+      "model": "cartomancy:item/queen_of_cups"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 63
+      },
+      "model": "cartomancy:item/king_of_cups"
+    },
+
+    {
+      "predicate": {
+        "cartomancy:number" : 64
+      },
+      "model": "cartomancy:item/ace_of_swords"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 65
+      },
+      "model": "cartomancy:item/two_of_swords"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 66
+      },
+      "model": "cartomancy:item/three_of_swords"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 67
+      },
+      "model": "cartomancy:item/four_of_swords"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 68
+      },
+      "model": "cartomancy:item/five_of_swords"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 69
+      },
+      "model": "cartomancy:item/six_of_swords"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 70
+      },
+      "model": "cartomancy:item/seven_of_swords"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 71
+      },
+      "model": "cartomancy:item/eight_of_swords"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 72
+      },
+      "model": "cartomancy:item/nine_of_swords"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 73
+      },
+      "model": "cartomancy:item/ten_of_swords"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 74
+      },
+      "model": "cartomancy:item/page_of_swords"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 75
+      },
+      "model": "cartomancy:item/knight_of_swords"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 76
+      },
+      "model": "cartomancy:item/queen_of_swords"
+    },
+    {
+      "predicate": {
+        "cartomancy:number" : 77
+      },
+      "model": "cartomancy:item/king_of_swords"
+    }
+  ]
+}

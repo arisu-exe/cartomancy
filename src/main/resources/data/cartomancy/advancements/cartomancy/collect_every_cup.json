@@ -1,0 +1,89 @@
+{
+  "parent": "cartomancy:cartomancy/root",
+  "display": {
+    "icon": {
+      "item": "cartomancy:card",
+      "nbt": "{card:\"ace_of_cups\"}"
+    },
+    "title": {
+      "translate": "advancements.cartomancy.collect_every_cup.title"
+    },
+    "description": {
+      "translate": "advancements.cartomancy.collect_every_cup.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cartomancy:card": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"ace_of_cups\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"two_of_cups\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"three_of_cups\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"four_of_cups\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"five_of_cups\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"six_of_cups\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"seven_of_cups\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"eight_of_cups\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"nine_of_cups\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"ten_of_cups\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"page_of_cups\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"knight_of_cups\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"queen_of_cups\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"king_of_cups\"}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cartomancy:card"
+    ]
+  ]
+}

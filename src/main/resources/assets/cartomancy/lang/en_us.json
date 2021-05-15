@@ -1,0 +1,129 @@
+{
+  "itemGroup.cartomancy" : "Cartomancy",
+
+
+
+  "item.cartomancy.card" : "Card",
+
+  "item.cartomancy.card.upright" : "Upright",
+  "item.cartomancy.card.reversed" : "Reversed",
+  "item.cartomancy.card.attuned" : "Attuned",
+
+  "item.cartomancy.card.the_fool" : "The Fool",
+  "item.cartomancy.card.the_magician" : "The Magician",
+  "item.cartomancy.card.the_high_priestess" : "The High Priestess",
+  "item.cartomancy.card.the_empress" : "The Empress",
+  "item.cartomancy.card.the_emperor" : "The Emperor",
+  "item.cartomancy.card.the_hierophant" : "The Hierophant",
+  "item.cartomancy.card.the_lovers" : "The Lovers",
+  "item.cartomancy.card.the_chariot" : "The Chariot",
+  "item.cartomancy.card.strength" : "Strength",
+  "item.cartomancy.card.the_hermit" : "The Hermit",
+  "item.cartomancy.card.wheel_of_fortune" : "Wheel of Fortune",
+  "item.cartomancy.card.justice" : "Justice",
+  "item.cartomancy.card.the_hanged_man" : "The Hanged Man",
+  "item.cartomancy.card.death" : "Death",
+  "item.cartomancy.card.temperance" : "Temperance",
+  "item.cartomancy.card.the_devil" : "The Devil",
+  "item.cartomancy.card.the_tower" : "The Tower",
+  "item.cartomancy.card.the_star" : "The Star",
+  "item.cartomancy.card.the_moon" : "The Moon",
+  "item.cartomancy.card.the_sun" : "The Sun",
+  "item.cartomancy.card.judgement" : "Judgement",
+  "item.cartomancy.card.the_world" : "The World",
+
+  "item.cartomancy.card.ace_of_wands" : "Ace of Wands",
+  "item.cartomancy.card.two_of_wands" : "Two of Wands",
+  "item.cartomancy.card.three_of_wands" : "Three of Wands",
+  "item.cartomancy.card.four_of_wands" : "Four of Wands",
+  "item.cartomancy.card.five_of_wands" : "Five of Wands",
+  "item.cartomancy.card.six_of_wands" : "Six of Wands",
+  "item.cartomancy.card.seven_of_wands" : "Seven of Wands",
+  "item.cartomancy.card.eight_of_wands" : "Eight of Wands",
+  "item.cartomancy.card.nine_of_wands" : "Nine of Wands",
+  "item.cartomancy.card.ten_of_wands" : "Ten of Wands",
+  "item.cartomancy.card.page_of_wands" : "Page of Wands",
+  "item.cartomancy.card.knight_of_wands" : "Knight of Wands",
+  "item.cartomancy.card.queen_of_wands" : "Queen of Wands",
+  "item.cartomancy.card.king_of_wands" : "King of Wands",
+
+  "item.cartomancy.card.ace_of_pentacles" : "Ace of Pentacles",
+  "item.cartomancy.card.two_of_pentacles" : "Two of Pentacles",
+  "item.cartomancy.card.three_of_pentacles" : "Three of Pentacles",
+  "item.cartomancy.card.four_of_pentacles" : "Four of Pentacles",
+  "item.cartomancy.card.five_of_pentacles" : "Five of Pentacles",
+  "item.cartomancy.card.six_of_pentacles" : "Six of Pentacles",
+  "item.cartomancy.card.seven_of_pentacles" : "Seven of Pentacles",
+  "item.cartomancy.card.eight_of_pentacles" : "Eight of Pentacles",
+  "item.cartomancy.card.nine_of_pentacles" : "Nine of Pentacles",
+  "item.cartomancy.card.ten_of_pentacles" : "Ten of Pentacles",
+  "item.cartomancy.card.page_of_pentacles" : "Page of Pentacles",
+  "item.cartomancy.card.knight_of_pentacles" : "Knight of Pentacles",
+  "item.cartomancy.card.queen_of_pentacles" : "Queen of Pentacles",
+  "item.cartomancy.card.king_of_pentacles" : "King of Pentacles",
+
+  "item.cartomancy.card.ace_of_cups" : "Ace of Cups",
+  "item.cartomancy.card.two_of_cups" : "Two of Cups",
+  "item.cartomancy.card.three_of_cups" : "Three of Cups",
+  "item.cartomancy.card.four_of_cups" : "Four of Cups",
+  "item.cartomancy.card.five_of_cups" : "Five of Cups",
+  "item.cartomancy.card.six_of_cups" : "Six of Cups",
+  "item.cartomancy.card.seven_of_cups" : "Seven of Cups",
+  "item.cartomancy.card.eight_of_cups" : "Eight of Cups",
+  "item.cartomancy.card.nine_of_cups" : "Nine of Cups",
+  "item.cartomancy.card.ten_of_cups" : "Ten of Cups",
+  "item.cartomancy.card.page_of_cups" : "Page of Cups",
+  "item.cartomancy.card.knight_of_cups" : "Knight of Cups",
+  "item.cartomancy.card.queen_of_cups" : "Queen of Cups",
+  "item.cartomancy.card.king_of_cups" : "King of Cups",
+
+  "item.cartomancy.card.ace_of_swords" : "Ace of Swords",
+  "item.cartomancy.card.two_of_swords" : "Two of Swords",
+  "item.cartomancy.card.three_of_swords" : "Three of Swords",
+  "item.cartomancy.card.four_of_swords" : "Four of Swords",
+  "item.cartomancy.card.five_of_swords" : "Five of Swords",
+  "item.cartomancy.card.six_of_swords" : "Six of Swords",
+  "item.cartomancy.card.seven_of_swords" : "Seven of Swords",
+  "item.cartomancy.card.eight_of_swords" : "Eight of Swords",
+  "item.cartomancy.card.nine_of_swords" : "Nine of Swords",
+  "item.cartomancy.card.ten_of_swords" : "Ten of Swords",
+  "item.cartomancy.card.page_of_swords" : "Page of Swords",
+  "item.cartomancy.card.knight_of_swords" : "Knight of Swords",
+  "item.cartomancy.card.queen_of_swords" : "Queen of Swords",
+  "item.cartomancy.card.king_of_swords" : "King of Swords",
+
+  "item.cartomancy.card.the_fool.description" : "The Fool represents new beginnings, having faith in the future, being inexperienced, not knowing what to expect, having beginner's luck, improvisation and believing in the universe.",
+
+  "item.cartomancy.card.the_fool.upright" : "Beginnings, Innocence, Leap of Faith, Originality, Spontaneity",
+
+  "item.cartomancy.card.the_fool.reversed" : "Chaos, Folly, Lack of Direction, Naivety, Poor Judgement, Stupidity",
+
+
+
+  "advancements.cartomancy.root.title" : "The Luck of the Draw",
+  "advancements.cartomancy.root.description" : "Find a tarot card",
+
+  "advancements.cartomancy.collect_every_trump.title" : "Trump Card",
+  "advancements.cartomancy.collect_every_trump.description" : "Collect every major trump card",
+
+  "advancements.cartomancy.collect_every_card.title" : "Gotta Catch 'em All",
+  "advancements.cartomancy.collect_every_card.description" : "Collect all 78 major and minor tarot cards",
+
+  "advancements.cartomancy.collect_every_sword.title" : "Double-Edged",
+  "advancements.cartomancy.collect_every_sword.description" : "Collect every card of swords",
+
+  "advancements.cartomancy.collect_every_pentacle.title" : "Two Sides of the Same",
+  "advancements.cartomancy.collect_every_pentacle.description" : "Collect every card of pentacles",
+
+  "advancements.cartomancy.collect_every_cup.title" : "Raise Your Glass",
+  "advancements.cartomancy.collect_every_cup.description" : "Collect every card of cups",
+
+  "advancements.cartomancy.collect_every_wand.title" : "Hocus Pocus",
+  "advancements.cartomancy.collect_every_wand.description" : "Collect every card of wands",
+
+
+
+  "entity.cartomancy.card" : "Card",
+  "entity.cartomancy.divine_arrow" : "Divine Arrow",
+  "entity.cartomancy.sigil" : "Sigil"
+}

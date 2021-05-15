@@ -1,0 +1,89 @@
+{
+  "parent": "cartomancy:cartomancy/root",
+  "display": {
+    "icon": {
+      "item": "cartomancy:card",
+      "nbt": "{card:\"ace_of_swords\"}"
+    },
+    "title": {
+      "translate": "advancements.cartomancy.collect_every_sword.title"
+    },
+    "description": {
+      "translate": "advancements.cartomancy.collect_every_sword.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cartomancy:card": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"ace_of_swords\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"two_of_swords\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"three_of_swords\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"four_of_swords\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"five_of_swords\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"six_of_swords\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"seven_of_swords\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"eight_of_swords\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"nine_of_swords\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"ten_of_swords\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"page_of_swords\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"knight_of_swords\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"queen_of_swords\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"king_of_swords\"}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cartomancy:card"
+    ]
+  ]
+}

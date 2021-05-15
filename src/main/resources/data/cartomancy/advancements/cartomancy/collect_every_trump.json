@@ -1,0 +1,121 @@
+{
+  "parent": "cartomancy:cartomancy/root",
+  "display": {
+    "icon": {
+      "item": "cartomancy:card",
+      "nbt": "{card:\"the_world\"}"
+    },
+    "title": {
+      "translate": "advancements.cartomancy.collect_every_trump.title"
+    },
+    "description": {
+      "translate": "advancements.cartomancy.collect_every_trump.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cartomancy:card": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"the_fool\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"the_magician\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"the_high_priestess\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"the_empress\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"the_emperor\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"the_hierophant\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"the_lovers\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"the_chariot\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"strength\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"the_hermit\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"wheel_of_fortune\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"justice\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"the_hanged_man\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"death\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"temperance\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"the_devil\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"the_tower\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"the_star\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"the_moon\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"the_sun\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"judgement\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"the_world\"}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cartomancy:card"
+    ]
+  ]
+}

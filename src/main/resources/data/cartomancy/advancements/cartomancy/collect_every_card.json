@@ -1,0 +1,348 @@
+{
+  "parent": "cartomancy:cartomancy/root",
+  "display": {
+    "icon": {
+      "item": "cartomancy:card",
+      "nbt": "{card:\"the_magician\"}"
+    },
+    "title": {
+      "translate": "advancements.cartomancy.collect_every_card.title"
+    },
+    "description": {
+      "translate": "advancements.cartomancy.collect_every_card.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 500
+  },
+  "criteria": {
+    "cartomancy:card": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"the_fool\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"the_magician\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"the_high_priestess\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"the_empress\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"the_emperor\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"the_hierophant\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"the_lovers\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"the_chariot\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"strength\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"the_hermit\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"wheel_of_fortune\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"justice\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"the_hanged_man\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"death\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"temperance\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"the_devil\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"the_tower\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"the_star\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"the_moon\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"the_sun\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"judgement\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"the_world\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"ace_of_swords\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"two_of_swords\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"three_of_swords\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"four_of_swords\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"five_of_swords\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"six_of_swords\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"seven_of_swords\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"eight_of_swords\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"nine_of_swords\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"ten_of_swords\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"page_of_swords\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"knight_of_swords\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"queen_of_swords\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"king_of_swords\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"ace_of_pentacles\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"two_of_pentacles\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"three_of_pentacles\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"four_of_pentacles\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"five_of_pentacles\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"six_of_pentacles\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"seven_of_pentacles\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"eight_of_pentacles\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"nine_of_pentacles\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"ten_of_pentacles\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"page_of_pentacles\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"knight_of_pentacles\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"queen_of_pentacles\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"king_of_pentacles\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"ace_of_cups\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"two_of_cups\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"three_of_cups\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"four_of_cups\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"five_of_cups\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"six_of_cups\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"seven_of_cups\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"eight_of_cups\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"nine_of_cups\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"ten_of_cups\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"page_of_cups\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"knight_of_cups\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"queen_of_cups\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"king_of_cups\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"ace_of_wands\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"two_of_wands\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"three_of_wands\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"four_of_wands\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"five_of_wands\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"six_of_wands\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"seven_of_wands\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"eight_of_wands\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"nine_of_wands\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"ten_of_wands\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"page_of_wands\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"knight_of_wands\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"queen_of_wands\"}"
+          },
+          {
+            "item": "cartomancy:card",
+            "nbt" : "{card:\"king_of_wands\"}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cartomancy:card"
+    ]
+  ]
+}
