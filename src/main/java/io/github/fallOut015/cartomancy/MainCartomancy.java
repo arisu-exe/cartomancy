@@ -7,6 +7,7 @@ import io.github.fallOut015.cartomancy.item.ItemModelsPropertiesCartomancy;
 import io.github.fallOut015.cartomancy.item.ItemsCartomancy;
 import io.github.fallOut015.cartomancy.item.card.Cards;
 import io.github.fallOut015.cartomancy.particles.ParticleTypesCartomancy;
+import io.github.fallOut015.cartomancy.server.PacketHandler;
 import net.minecraftforge.client.event.ParticleFactoryRegisterEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.entity.living.LivingEvent;
@@ -21,8 +22,9 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-@Mod("cartomancy")
+@Mod(MainCartomancy.MODID)
 public class MainCartomancy {
+    public static final String MODID = "cartomancy";
     // TODO add village witch, with an altar inside and a chest with cards
     public static final Logger LOGGER = LogManager.getLogger();
 
@@ -40,6 +42,7 @@ public class MainCartomancy {
     }
 
     private void setup(final FMLCommonSetupEvent event) {
+        PacketHandler.setup(event);
         Cards.setup(event);
     }
     private void doClientStuff(final FMLClientSetupEvent event) {
