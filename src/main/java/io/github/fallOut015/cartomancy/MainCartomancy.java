@@ -25,7 +25,7 @@ import org.apache.logging.log4j.Logger;
 @Mod(MainCartomancy.MODID)
 public class MainCartomancy {
     public static final String MODID = "cartomancy";
-    // TODO add village witch, with an altar inside and a chest with cards
+    // TODO add village witch, with an altar inside and a chest with cards, crystals, etc. (friendly witch :) )
     public static final Logger LOGGER = LogManager.getLogger();
 
     public MainCartomancy() {
