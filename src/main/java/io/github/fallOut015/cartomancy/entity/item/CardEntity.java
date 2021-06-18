@@ -243,7 +243,7 @@ public class CardEntity extends Entity {
     }
 
     public void playerTouch(PlayerEntity entityIn) {
-        if (!this.level.isClientSide) {
+        if (!this.level.isClientSide && !entityIn.isShiftKeyDown()) {
             ItemStack itemstack = new ItemStack(ItemsCartomancy.CARD.get());
             if(this.getCardType().isPresent()) {
                 CardItem.putCard(itemstack, this.getCardType().get());
