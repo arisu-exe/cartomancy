@@ -1,8 +1,5 @@
 package io.github.fallOut015.cartomancy.particles;
 
-import io.github.fallOut015.cartomancy.entity.item.CardEntity;
-import net.minecraft.entity.EntityClassification;
-import net.minecraft.entity.EntityType;
 import net.minecraft.particles.BasicParticleType;
 import net.minecraft.particles.ParticleType;
 import net.minecraftforge.eventbus.api.IEventBus;
