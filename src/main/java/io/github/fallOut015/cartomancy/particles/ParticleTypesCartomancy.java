@@ -15,6 +15,7 @@ public class ParticleTypesCartomancy {
     public static final RegistryObject<BasicParticleType> SPARKLE = PARTICLE_TYPES.register("sparkle", () -> new BasicParticleType(false));
     public static final RegistryObject<BasicParticleType> SPARKLE_ATTUNEMENT = PARTICLE_TYPES.register("sparkle_attunement", () -> new BasicParticleType(false));
     public static final RegistryObject<BasicParticleType> SPARK = PARTICLE_TYPES.register("spark", () -> new BasicParticleType(true));
+    public static final RegistryObject<BasicParticleType> SHINE = PARTICLE_TYPES.register("shine", () -> new BasicParticleType(true));
 
 
 

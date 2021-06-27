@@ -1,5 +1,6 @@
 package io.github.fallOut015.cartomancy.entity.projectile;
 
+import io.github.fallOut015.cartomancy.particles.ParticleTypesCartomancy;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
@@ -9,6 +10,7 @@ import net.minecraft.entity.projectile.AbstractArrowEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.network.IPacket;
+import net.minecraft.particles.ParticleTypes;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.util.math.vector.Vector3d;
@@ -25,11 +27,13 @@ public class DivineArrowEntity extends AbstractArrowEntity {
     @Nullable
     private UUID casterID;
     private int warmupDelayTicks;
+    private boolean moving;
 
     public DivineArrowEntity(EntityType<? extends DivineArrowEntity> type, World worldIn) {
         super(type, worldIn);
         this.noPhysics = false;
         this.setBaseDamage(5);
+        this.moving = false;
     }
 
     public void setCasterID(UUID casterID) {
@@ -50,7 +54,10 @@ public class DivineArrowEntity extends AbstractArrowEntity {
     @Override
     public void tick() {
         if(-- this.warmupDelayTicks <= 0) {
-            if(!this.level.isClientSide) {
+            if(this.level.isClientSide && this.tickCount % 4 == 0) {
+                this.level.addParticle(ParticleTypesCartomancy.SHINE.get(), this.getX(), this.getY(), this.getZ(), (this.random.nextDouble() - 0.5d) * 0.001d, (this.random.nextDouble() - 0.5d) * 0.001d, (this.random.nextDouble() - 0.5d) * 0.001d);
+                //this.level.addParticle(ParticleTypes.CRIT, this.getX(), this.getY(), this.getZ(), (this.random.nextDouble() - 0.5d) * 0.1d, (this.random.nextDouble() - 0.5d) * 0.1d, (this.random.nextDouble() - 0.5d) * 0.1d);
+            } else {
                 if(this.target != null && this.target == this.getCaster()) {
                     this.target.removeTag("targeted");
                     //this.target.setGlowing(false);
@@ -80,15 +87,21 @@ public class DivineArrowEntity extends AbstractArrowEntity {
                     }
                 }
 
-                if(this.getDeltaMovement().y() < 0) {
+                if(this.getDeltaMovement().y() < 0 && !this.isNoGravity()) {
+                    this.setNoGravity(true);
                     if(this.target == null) {
                         this.remove();
-                    } else {
-                        this.setNoGravity(true);
-                        Vector3d normalizedDelta =  new Vector3d(this.target.getX() - this.getX(), this.target.getY() - this.getY() + target.getEyeHeight(), this.target.getZ() - this.getZ()).normalize().scale(0.75d);
-                        Vector3d motion = new Vector3d(MathHelper.lerp(0.2d, this.getDeltaMovement().x(), normalizedDelta.x()), MathHelper.lerp(0.2d, this.getDeltaMovement().y(), normalizedDelta.y()), MathHelper.lerp(0.2d, this.getDeltaMovement().z(), normalizedDelta.z()));
-                        this.setDeltaMovement(motion);
                     }
+                }
+
+                if(this.getDeltaMovement().y() < 0.25d && this.target != null) {
+                    this.moving = true;
+                }
+
+                if(this.moving && this.target != null) {
+                    Vector3d normalizedDelta =  new Vector3d(this.target.getX() - this.getX(), this.target.getY() - this.getY() + target.getEyeHeight(), this.target.getZ() - this.getZ()).normalize().scale(0.75d);
+                    Vector3d motion = new Vector3d(MathHelper.lerp(0.01d, this.getDeltaMovement().x(), normalizedDelta.x()), MathHelper.lerp(0.2d, this.getDeltaMovement().y(), normalizedDelta.y()), MathHelper.lerp(0.2d, this.getDeltaMovement().z(), normalizedDelta.z()));
+                    this.setDeltaMovement(motion);
                 }
             }
 

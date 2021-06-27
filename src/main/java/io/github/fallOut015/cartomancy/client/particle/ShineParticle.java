@@ -7,10 +7,10 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 
 @OnlyIn(Dist.CLIENT)
-public class SparkParticle extends SpriteTexturedParticle {
+public class ShineParticle extends SpriteTexturedParticle {
     private final IAnimatedSprite spriteWithAge;
 
-    protected SparkParticle(ClientWorld world, double x, double y, double z, double motionX, double motionY, double motionZ, float scale, IAnimatedSprite spriteWithAge) {
+    protected ShineParticle(ClientWorld world, double x, double y, double z, double motionX, double motionY, double motionZ, float scale, IAnimatedSprite spriteWithAge) {
         super(world, x, y, z, motionX, motionY, motionZ);
         this.spriteWithAge = spriteWithAge;
         this.xd += motionX;
@@ -22,7 +22,7 @@ public class SparkParticle extends SpriteTexturedParticle {
         this.quadSize = scale;
         this.lifetime = 32;
         this.setSpriteFromAge(spriteWithAge);
-        this.hasPhysics = true;
+        this.hasPhysics = false;
     }
 
     @Override
@@ -30,6 +30,7 @@ public class SparkParticle extends SpriteTexturedParticle {
         super.tick();
 
         this.xd *= 0.95;
+        this.yd *= 0.95;
         this.zd *= 0.95;
 
         float interpolation = (float) this.age / (float) this.lifetime;
@@ -58,7 +59,7 @@ public class SparkParticle extends SpriteTexturedParticle {
         }
 
         public Particle createParticle(BasicParticleType typeIn, ClientWorld worldIn, double x, double y, double z, double xSpeed, double ySpeed, double zSpeed) {
-            return new SparkParticle(worldIn, x, y, z, xSpeed, ySpeed, zSpeed, 0.1F, this.spriteSet);
+            return new ShineParticle(worldIn, x, y, z, xSpeed, ySpeed, zSpeed, 0.1F, this.spriteSet);
         }
     }
 }

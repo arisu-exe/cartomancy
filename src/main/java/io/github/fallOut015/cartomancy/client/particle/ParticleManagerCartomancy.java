@@ -9,5 +9,6 @@ public class ParticleManagerCartomancy {
         Minecraft.getInstance().particleEngine.register(ParticleTypesCartomancy.SPARKLE.get(), SparkleParticle.Factory::new);
         Minecraft.getInstance().particleEngine.register(ParticleTypesCartomancy.SPARKLE_ATTUNEMENT.get(), SparkleAttunementParticle.Factory::new);
         Minecraft.getInstance().particleEngine.register(ParticleTypesCartomancy.SPARK.get(), SparkParticle.Factory::new);
+        Minecraft.getInstance().particleEngine.register(ParticleTypesCartomancy.SHINE.get(), ShineParticle.Factory::new);
     }
 }

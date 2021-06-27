@@ -22,7 +22,7 @@ public class JudgementCard extends EntityCard {
                 cardEntity.level.addFreshEntity(divineArrow);
             }
 
-            // TODO do after last arrow disappears
+            // TODO do after all arrows disappear
             if(cardEntity.isActive()) {
                 cardEntity.setActive(false);
             }

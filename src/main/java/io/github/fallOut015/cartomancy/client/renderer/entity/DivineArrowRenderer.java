@@ -2,6 +2,7 @@ package io.github.fallOut015.cartomancy.client.renderer.entity;
 
 import com.mojang.blaze3d.matrix.MatrixStack;
 import com.mojang.blaze3d.vertex.IVertexBuilder;
+import io.github.fallOut015.cartomancy.MainCartomancy;
 import io.github.fallOut015.cartomancy.entity.projectile.DivineArrowEntity;
 import net.minecraft.client.renderer.IRenderTypeBuffer;
 import net.minecraft.client.renderer.RenderType;
@@ -17,13 +18,13 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 
 @OnlyIn(Dist.CLIENT)
 public class DivineArrowRenderer extends ArrowRenderer<DivineArrowEntity> {
-    public static final ResourceLocation RES_DIVINE_ARROW = new ResourceLocation("cartomancy", "textures/entity/projectiles/divine_arrow.png");
+    public static final ResourceLocation RES_DIVINE_ARROW = new ResourceLocation(MainCartomancy.MODID, "textures/entity/projectiles/divine_arrow.png");
 
     public DivineArrowRenderer(EntityRendererManager manager) {
         super(manager);
     }
 
-    // TODO render fade in
+    // TODO render fade in and out
 
     @Override
     public void render(DivineArrowEntity entityIn, float entityYaw, float partialTicks, MatrixStack matrixStackIn, IRenderTypeBuffer bufferIn, int packedLightIn) {
